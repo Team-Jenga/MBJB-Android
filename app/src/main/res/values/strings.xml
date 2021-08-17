@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">ManBanJalBu</string>
+    <string name="next">다음</string>
+    <string name="join">가입하기</string>
+    <string name="complete">완료</string>
+    <string name="business_card_book">명함첩</string>
+    <string name="calendar">일정</string>
+    <string name="view_more">더보기</string>
+    <string name="save">저장</string>
+    <string name="shoot">촬영</string>
+    <string name="modify">수정</string>
+    <string name="default_image_setting">기본이미지설정</string>
+    <string name="business_card_details">명함 상세</string>
+    <string name="calendar_details">일정 상세</string>
 </resources>

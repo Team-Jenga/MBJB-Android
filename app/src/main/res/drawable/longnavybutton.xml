@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 눌림 -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="5sp"/>
+            <solid android:color="@color/LIGHT_NAVY"/>
+            <size
+                android:width="300dp"
+                android:height="40dp"/>
+        </shape>
+    </item>
+
+
+    <!-- 일반 상태 -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="5sp"/>
+            <solid android:color="@color/DARK_NAVY"/>
+            <size
+                android:width="300dp"
+                android:height="40dp"/>
+        </shape>
+    </item>
+</selector>
