@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="112dp">
+
+        <ImageView
+            android:id="@+id/friendPicture"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="4dp"
+            tools:srcCompat="@tools:sample/avatars"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/friendName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/friendRank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rank"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/friendCompany"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/companyName"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/friendEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/friendMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/frinedCompanyNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/companyNumber"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</FrameLayout>
