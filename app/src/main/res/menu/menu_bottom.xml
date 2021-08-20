@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab1"
+        android:enabled="true"
+        android:icon="@drawable/menu_businesscardbook"
+        android:title="@string/businessCardBook"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab2"
+        android:enabled="true"
+        android:icon="@drawable/menu_calendar"
+        android:title="@string/calendar"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab3"
+        android:enabled="true"
+        android:icon="@drawable/menu_teamcards"
+        android:title="@string/teamCards"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/tab4"
+        android:enabled="true"
+        android:icon="@drawable/menu_viewmore"
+        android:title="@string/viewMore"
+        app:showAsAction="ifRoom" />
+
+</menu>
