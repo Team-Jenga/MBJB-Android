@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ManBanJalBu</string>
-    <string name="join">가입하기</string>
+    <string name="join">회원가입</string>
 
     <string name="businessCardBook">명함첩</string>
     <string name="myBusinessCardDetails">내 명함 상세</string>
