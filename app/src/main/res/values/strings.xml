@@ -46,4 +46,7 @@
     <string name="cancel">취소</string>
     <string name="input">입력</string>
     <string name="reInput">재입력</string>
+
+    <string name="QRCreate">QR코드 생성</string>
+    <string name="QRScan">QR코드 스캔</string>
 </resources>
