@@ -22,7 +22,7 @@ public class QRCreate extends AppCompatActivity {
         setContentView(R.layout.activity_qrcreate);
 
         iv = (ImageView)findViewById(R.id.QRcode);
-        text = "https://park-duck.tistory.com";
+        text = "https://github.com/TeamDoD/MBJB-Android";
 
         MultiFormatWriter multiFormatWriter = new MultiFormatWriter();
         try{
